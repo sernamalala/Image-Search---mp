@@ -1,7 +1,8 @@
 body{
     font-family: "Delius", cursive;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin: 50px;
     border: 10px solid rgba(128, 128, 128, 0.499);
     padding: 10px;
@@ -9,8 +10,7 @@ body{
 
 #searchbar{
     margin-top: 20px;
-    padding: 10px 0px
-
+    padding: 10px 0px;
 }
 #searchbutton{
     padding: 10px;
@@ -20,4 +20,16 @@ body{
 background-color: rgba(4, 168, 127, 0.36);
 color: black;
 border: 1px solid rgb(4, 168, 127);
+}
+
+#image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px;
+    
+}
+#image{
+    width: 100px;
+    height: auto;
 }
